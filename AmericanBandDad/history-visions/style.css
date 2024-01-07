@@ -1,11 +1,11 @@
 header {
     font-family: sans-serif;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 85px;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.2); 
+    background-color: #ec9706; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transition: height 0.3s;
     z-index: 2;
@@ -54,7 +54,8 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #ec9706;
+    background-color: white;
+    color: black;
     padding: 10px 20px; /* Adjust the padding for the hover state */
 }
 
